@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================= */
+/* LeetCode / GitHub Heatmap UI */
+/* ============================= */
+
+/* Rounded boxes */
+.react-calendar-heatmap rect {
+  rx: 2;
+  ry: 2;
+}
+
+/* Month spacing (safe way) */
+.react-calendar-heatmap .react-calendar-heatmap-week {
+  margin-right: 6px;
+}
+
+/* Dark background empty cells */
+.color-empty {
+  fill: #1f2937;
+}
+
+/* Activity levels */
+.color-github-2 {
+  fill: #22c55e;
+}
+
+.color-github-3 {
+  fill: #16a34a;
+}
+
+.color-github-4 {
+  fill: #15803d;
+}
